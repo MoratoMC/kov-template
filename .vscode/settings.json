@@ -4,7 +4,7 @@
   "explorer.fileNesting.patterns": {
     "package.json": "package-lock.json,pnpm-lock.yaml",
     ".eslintrc.js": ".eslintignore,.prettierrc,.editorconfig,.stylelintrc.js,.stylelintignore,commitlint.config.ts,postcss.config.js",
-    "README.md": "LICENSE,.gitignore",
+    "README.md": "LICENSE,LICENSE.txt,.gitignore",
     "vite.config.mts": "tsconfig.json,tsconfig.*.json,index.html, uno.config.ts",
   },
   // https://uvr.esm.is/introduction#setup unplugin-vue-router 将添加一个虚拟模块，该模块导出 中的所有内容以及 中的一些额外功能。建议避免在新项目中使用。保留它是为了与使用它的现有项目兼容，将来可能会将其删除。

@@ -20,4 +20,5 @@ export const useSettingStore = defineStore({
 			this.isDark = value;
 		},
 	},
+	persist: true, // 持久化存储
 });

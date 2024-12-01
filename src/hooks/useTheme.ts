@@ -20,6 +20,8 @@ export const useTheme = () => {
 		}
 	};
 
+	switchDark(); // 初始化
+
 	return {
 		switchDark,
 	};
